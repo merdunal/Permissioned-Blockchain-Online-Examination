@@ -1,0 +1,20 @@
+# Node ve Frontend
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+
+# Python Virtual Environments (Bunu ekledik!)
+venv/
+env/
+.venv/
+
+# Besu Network Verileri ve Logları
+besu-network/**/data/
+besu-network/**/*.log
+besu-network/Node-*/caches/
+
+# Mac OS Sistem Dosyaları
+.DS_Store
